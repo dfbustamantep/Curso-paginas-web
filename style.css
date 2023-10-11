@@ -1,83 +1,83 @@
 /*Comentario*/
-
+/*Establecemos el estilo del cuerpo del documento*/
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;/*fuente*/
+    background-color: aliceblue;/*color de fondo*/
     margin: 0;
-    padding: 0;
+    padding: 0;/*relleno*/
 }
-
+/*Establecemos el estilo del encabezadp del documento*/
 header {
-    background-color: blue;
-    color: aliceblue;
+    background-color: #0055ff;/*color de fondo*/
+    color: aliceblue;/*color de texto*/
     text-align: center;
-    padding: 20px;
+    padding: 25px;/*relleno*/
 }
 
 h1 {
     margin: 0%;
 }
-
+/*estilo del ontenedor que envuelve el curriculum*/
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
-    border: 1px solid gray;
+    background-color: whitesmoke;
+    border: 1px solid rgb(1, 1, 1);
 }
-
+/*color dek tecto de los encabezados h2*/
 h2 {
-    color: #007BFF;
+    color: #0055ff;
 }
-
+/*establecemos el estilo para las listas no ordenadas,cambiando el tipo de marcador a cuadrado*/
 ul {
-    list-style-type: square;
+    list-style-type:disc;
 }
-
+/*Estilo para las barras de progeso*/
 .progress-bar {
     width: 100%;
     height: 40px;
-    background-color: rgb(212, 209, 209);
+    background-color: rgb(240, 239, 239);
     margin-bottom: 10px;
     border-radius: 5px;
 }
 
 .progress {
     height: 100%;
-    text-align: right;
+    text-align:center;
     padding: 3px;
-    color: white;
+    color: rgb(251, 251, 251);
 }
 
 .html {
     width: 20%;
     background-color: orange;
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 .css {
-    width: 10%;
+    width: 15%;
     background-color: orange;
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 .phyton {
     width: 30%;
     background-color: orange;
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 .java {
-    width: 50%;
+    width: 55%;
     background-color: orange;
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 .cpp {
     width: 55%;
     background-color: orange;
     /*background: linear-gradient(to right, orange, white);*/
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 .profile-pic img {
